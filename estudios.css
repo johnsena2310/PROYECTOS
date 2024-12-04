@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    width: 25px;
+    height: 25px; 
+    transform: scale(1.5); 
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+  }
+  
+  h1 {
+    font-size: 3.5em;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+  h3 {
+    font-size: 1em;
+  }
+  p {
+    font-size: 0.5em;
+  }
+  
+  button {
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    box-shadow: 2px 2px 10px rgb(138, 43, 226, 0.5);
+    color: white;
+    background-color: blueviolet;
+  }
+  
+  button:hover {
+    background-color: rgb(85, 11, 155);
+  }
+  
+  
+  
+  header{
+    margin: 0;
+    max-width: 100%;
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.952);
+    text-align: center;
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    
+  }
+  
+  .logo {
+    margin: 30px;   
+    padding: 1px 1px;
+    font-weight: bold;
+    color: blueviolet;
+    font-size: 3rem;
+    text-align: right; 
+  }
+  
+  .text-logo{
+    margin: auto;
+    text-align: left;
+  }
+  
+  
+  .navbar{
+    display:flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  header nav a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.938);
+    text-align: right; 
+    font-size: 1.rem;
+  }
+  
+  header nav a:hover {
+    color: blueviolet;
+  }
+
+
+
+
+
+  #BACHILLER{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color: blueviolet;  
+  }
+
+  .COLEGIO{    
+ background-color: white;
+ display: flex;
+ align-items: center;
+ font-weight: bold;
+ font-size: 1.5em;
+ padding: 60px;
+   
+  }
+
+  .informacion{
+    margin-left: 200px;
+    margin: auto;
+ 
+  }
+
+  .COLEGIO img{
+    margin-left: 20px;
+    
+  }
+
+
+
+/*universidad*/
+
+#universidad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color: blueviolet;  
+  }
+
+  .amigo{    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 60px;
+   
+  }
+
+  .informacionu{
+    margin-left: 300px;
+    margin: auto;
+    
+ 
+  }
+
+  .amigo img{
+    margin-left: 200px;
+    margin: auto;
+    
+  }
+
+
+/*Sena*/
+#sena{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    color: blueviolet;  
+  }
+
+  .senaa{    
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 60px;
+   
+  }
+
+  .informacions{
+    margin-left: 300px;
+    margin: auto;
+    
+ 
+  }
+
+  .amigo img{
+    margin-left: 200px;
+    margin: auto;
+    
+  }
+
+
+
+
+
+  /*pie de pagina*/
+
+  .footer{
+    color: white;
+    text-align: center;
+
+  }
+
+  .footer a{
+    gap: 50px;
+    margin: 10px 20px 10px 20px ;
+  }
+
+ 
